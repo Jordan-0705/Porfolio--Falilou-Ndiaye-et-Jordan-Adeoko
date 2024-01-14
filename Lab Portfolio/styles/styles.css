@@ -1,0 +1,346 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3663f7;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.Accueil ul {
+    display: flex;
+    flex-direction: ro;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 80%;margin: 20px 50px 0 
+
+    
+}
+    
+.Accueil li {
+    cursor: pointer;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    list-style-type: none;
+}
+
+.Accueil li a  {
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: background-color 0.7s ease;
+    border-radius: 15px;
+}
+
+.Accueil li a:hover {
+    background-color: #6079ca;
+}
+
+@media screen and (max-width: 800px){
+    nav ul {
+        flex-direction: column;
+    }
+    .Accueil li {
+        justify-content: space-between;
+        display: flex;
+    }
+}
+
+.container a {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 5px;
+    display: inline-flex;
+    flex-direction: row;
+    transition: background-color 0.7s ease;
+    
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #413e3e;
+}
+
+footer {
+    background-color: #3663f7;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#h2 {
+    margin-top: -4%;
+}
+
+h2 {
+    text-align: center;text-decoration: underline;font-family: Arial, Helvetica, sans-serif ;
+}
+nav .container {
+    margin: 0 0 0 150px;
+    cursor: pointer;
+    text-align: center;
+}
+form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;margin: 0;
+  }
+  form h1 {
+    font-size: 20px;
+  }
+  form .separation {
+    width: 100%;
+    height: 1px;
+    background-color: #3663f7;
+  }
+  form .corps-formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  form .corps-formulaire .groupe {
+    position: relative; 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  form .corps-formulaire .gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: #3663f7;
+    border-radius: 5px;
+  }
+  form .corps-formulaire .gauche .groupe i {
+    position: absolute; 
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: #3663f7;
+  }
+  form .corps-formulaire .droite {
+    margin-left: 40px;
+  }
+  form .corps-formulaire .droite .groupe {
+    height: 100%;
+  }
+  form .corps-formulaire .droite .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #3663f7;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+  }
+  form .pied-formulaire button {
+    margin-top: 10px;
+    background-color: #3663f7;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  form .pied-formulaire button:hover {
+    transform: scale(1.05);
+  }
+  
+  @media screen and (max-width: 920px) {
+    form .corps-formulaire .droite {
+      margin-left: 0px;
+    }
+  }
+  footer {
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #3663f7;
+	color: white;
+    border-radius: 20px;
+}
+footer .colonne p {
+	font-size: 12px;
+	color: #ccc;
+	cursor: pointer;
+}
+footer .colonne p:hover {
+	color: #fff;
+}
+#Acceuil .container li a{
+    overflow: visible;border-radius: 4px;
+}
+#Acceuil .container li a:hover {
+    background-color: #6079ca;
+}
+
+.Competences h4,
+.Competences p {
+  margin: 0 0 0.3rem 0;
+}
+
+.Competences li {
+  background-color: #F5F5F5;
+  border-left: 3px solid #3663f7;
+  padding: .9rem 2rem;
+}
+
+.Competences .progressbar {
+  background: #F5F5F5;
+  color: #FFF;
+  margin-bottom: 1rem;
+}
+
+.Competences .bar {
+  background: #3663f7;
+  padding:1rem ;
+}
+
+.progressbar1 {
+	background: #3663f7;
+  margin-bottom: 1rem;
+  width: 95%;
+  color: #FFF;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progressbar2 {
+	background: #3663f7;
+  margin-bottom: 1rem;
+  width: 90%;
+  color: #FFF;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progressbar3 {
+	background: #3663f7;
+  margin-bottom: 1rem;
+  width: 85%;
+  color: #FFF;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progressbar4 {
+	background: #3663f7;
+  margin-bottom: 1rem;
+  width: 90%;
+  color: #FFF;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progressbar5 {
+	background: #3663f7;
+  margin-bottom: 1rem;
+  width: 85%;
+  color: #FFF;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progressbar6 {
+	background: #3663f7;
+  margin-bottom: 1rem;
+  width: 75%;
+  color: #FFF;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progressbar7 {
+	background: #3663f7;
+  margin-bottom: 1rem;
+  width: 90%;
+  color: #FFF;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progressbar8 {
+	background: #3663f7;
+  margin-bottom: 1rem;
+  width: 75%;
+  color: #FFF;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#a1 {
+  color: #ffffff;
+  text-align: right;
+  float: right;
+}
+
+#a2 {
+  color: #3663f7;
+}
+
+.colonne h3 i {
+  border-radius: 1px;
+}#Portfolio {
+    margin-top: 60px;
+  }
+  #Portfolio .image-card {
+    display:flex;
+    align-items:center;
+    margin-bottom: 60px;
+  }
+  #Portfolio .image-card .image-left {
+    margin-right: 40px;
+  }
+  #Portfolio .image-card .image-left img {
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+  }
+  
+  @media screen and (max-width: 880px) {
+    #Portfolio .image-card {
+      flex-wrap:wrap;
+    }
+  }
+  #intro {
+    text-align: center;
+  }
